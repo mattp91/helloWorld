@@ -12,7 +12,7 @@ buster.testCase("security checks", {
         .expect(Math.abs(security.indexOf("🐕") - security.indexOf("🥶")))
         .toBeLessThan(5);
     },
-    "puppies are cool to": function () {
+    "puppies are cool too": function () {
       var security = fs.readFileSync("./security.md", { encoding: "utf8" });
       buster.expect(security).toContain("🐶");
     },
