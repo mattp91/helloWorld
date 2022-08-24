@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "My first repository on here, dunno what the hell I'm doing LOL!",
+  "main": "buster.js",
+  "scripts": {
+    "test": "buster-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattp91/helloWorld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattp91/helloWorld/issues"
+  },
+  "homepage": "https://github.com/mattp91/helloWorld#readme",
+  "devDependencies": {
+    "buster": "^0.7.18"
+  }
+}
