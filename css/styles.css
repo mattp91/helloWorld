@@ -1,5 +1,9 @@
+body {
+  filter: contrast(10);
+}
+
 .hotdog {
-  background-image: url('../images/hotdog.png');
+  background-image: url("../images/hotdog.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100px;
@@ -50,7 +54,7 @@ nav {
 }
 
 .freezer {
-  background-image: url('../images/freezer.jpg');
+  background-image: url("../images/freezer.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
